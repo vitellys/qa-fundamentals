@@ -1,0 +1,48 @@
+# Tipos de Testes
+
+Existem vários tipos de testes utilizados durante o desenvolvimento de um software. Cada um deles tem um objetivo diferente, mas todos ajudam a garantir que o sistema funcione corretamente e entregue qualidade para o usuário.
+
+## Teste Funcional
+
+O teste funcional verifica se uma funcionalidade do sistema está funcionando da forma que foi planejada nos requisitos.
+
+Ou seja, o QA testa se aquilo que foi desenvolvido realmente faz o que deveria fazer.
+
+Exemplo:  
+Testar se um usuário consegue fazer login no sistema utilizando um email e senha válidos.
+
+## Teste Exploratório
+
+O teste exploratório acontece quando o testador navega pelo sistema de forma mais livre, explorando as funcionalidades e tentando encontrar comportamentos inesperados ou falhas que não estavam previstas.
+
+Esse tipo de teste depende muito da curiosidade e da experiência do QA.
+
+Exemplo:  
+Navegar por diferentes páginas do sistema, clicar em botões, inserir valores diferentes nos campos e observar como o sistema se comporta.
+
+## Teste de Regressão
+
+O teste de regressão é realizado sempre que alguma alteração é feita no sistema, como uma correção de bug ou uma nova funcionalidade.
+
+O objetivo é garantir que aquilo que já funcionava antes continue funcionando mesmo depois da mudança.
+
+Exemplo:  
+Depois que um bug no login é corrigido, o QA testa novamente o login, o cadastro e a recuperação de senha para garantir que nenhuma dessas funcionalidades foi afetada.
+
+## Teste de Integração
+
+O teste de integração verifica se diferentes partes do sistema funcionam corretamente quando estão conectadas entre si.
+
+Ou seja, ele testa a comunicação entre módulos ou serviços.
+
+Exemplo:  
+Verificar se, ao realizar um cadastro de usuário, as informações realmente são enviadas e salvas corretamente no banco de dados.
+
+## Teste de Aceitação
+
+O teste de aceitação é feito para validar se o sistema atende às expectativas do usuário ou do cliente.
+
+Normalmente esse teste representa situações reais de uso do sistema.
+
+Exemplo:  
+Um usuário acessa um site de e-commerce, escolhe um produto, adiciona ao carrinho e consegue finalizar a compra com sucesso.
