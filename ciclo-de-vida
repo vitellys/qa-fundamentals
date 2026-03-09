@@ -1,0 +1,63 @@
+# Ciclo de Vida do Desenvolvimento de Software (SDLC)
+
+O SDLC (Software Development Life Cycle) representa o conjunto de etapas que um software percorre desde a ideia inicial até o momento em que ele está sendo utilizado e mantido pelos usuários.
+
+Esse ciclo ajuda as equipes a organizarem melhor o desenvolvimento do sistema, garantindo mais qualidade, planejamento e controle durante todo o processo.
+
+## 1. Planejamento
+
+Nessa etapa inicial é definido o que será desenvolvido, quais são os objetivos do projeto e quais recursos serão necessários.
+
+Aqui a equipe analisa, por exemplo:
+- qual problema o software pretende resolver
+- qual será o público que irá utilizá-lo
+- quanto tempo e quais profissionais serão necessários para o desenvolvimento
+
+Essa fase é importante porque direciona todo o restante do projeto.
+
+## 2. Análise de requisitos
+
+Após o planejamento, é necessário entender exatamente o que o sistema precisa fazer.
+
+Nessa etapa são coletadas e documentadas as necessidades dos usuários e do negócio. Esses requisitos servem como base para o desenvolvimento das funcionalidades do sistema.
+
+Exemplo:  
+Um requisito pode ser que o usuário consiga criar uma conta utilizando email e senha.
+
+## 3. Desenvolvimento
+
+Aqui começa a construção do sistema. Os desenvolvedores utilizam linguagens de programação e ferramentas para implementar as funcionalidades definidas nos requisitos.
+
+Durante essa fase são criadas, por exemplo:
+- telas do sistema
+- funcionalidades
+- integrações com banco de dados
+- APIs
+
+## 4. Testes
+
+Depois que as funcionalidades são desenvolvidas, o time de QA entra em ação para verificar se o sistema está funcionando corretamente.
+
+O objetivo dessa etapa é encontrar erros, falhas ou comportamentos inesperados antes que o sistema seja disponibilizado para os usuários.
+
+Entre as atividades do QA estão:
+- execução de testes
+- criação de casos de teste
+- identificação e reporte de bugs
+
+## 5. Deploy
+
+Após os testes e correções necessárias, o sistema pode ser publicado e disponibilizado para os usuários.
+
+Esse processo é chamado de deploy, e significa basicamente colocar o software em produção, ou seja, no ambiente onde ele será realmente utilizado.
+
+## 6. Manutenção
+
+Mesmo após o sistema ser lançado, o trabalho não termina.
+
+Nessa etapa são realizadas:
+- correções de bugs encontrados pelos usuários
+- melhorias no sistema
+- atualizações e novas funcionalidades
+
+A manutenção é importante para manter o software funcionando bem ao longo do tempo.
