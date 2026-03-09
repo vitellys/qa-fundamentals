@@ -1,0 +1,53 @@
+# Pirâmide de Testes
+
+A pirâmide de testes é um modelo utilizado em QA para representar como os diferentes tipos de testes devem ser distribuídos dentro de um projeto de software.
+
+A ideia principal é manter uma base grande de testes mais simples e rápidos, e uma quantidade menor de testes mais complexos.
+
+Isso ajuda a garantir qualidade no sistema sem tornar o processo de testes muito lento ou caro.
+
+Representação da pirâmide:
+
+        E2E
+     Integração
+   Testes Unitários
+
+## Testes Unitários
+
+Os testes unitários verificam pequenas partes do código, como funções ou métodos específicos.
+
+Normalmente são escritos pelos desenvolvedores e testam apenas uma pequena unidade do sistema de forma isolada.
+
+Características:
+
+- são rápidos de executar
+- têm baixo custo de manutenção
+- existem em grande quantidade dentro de um projeto
+
+Exemplo:  
+Testar uma função responsável por calcular o valor total de um carrinho de compras.
+
+## Testes de Integração
+
+Os testes de integração verificam se diferentes partes do sistema funcionam corretamente quando estão conectadas entre si.
+
+Nesse tipo de teste, o objetivo é validar a comunicação entre módulos, serviços ou componentes do sistema.
+
+Exemplo:  
+Verificar se uma API consegue enviar dados corretamente para o banco de dados.
+
+## Testes End-to-End (E2E)
+
+Os testes End-to-End simulam o comportamento real do usuário dentro do sistema, testando um fluxo completo da aplicação.
+
+Eles verificam se todas as partes do sistema funcionam juntas corretamente.
+
+Exemplo:  
+Fluxo completo de compra em um site de e-commerce:
+
+1. usuário acessa o site  
+2. escolhe um produto  
+3. adiciona ao carrinho  
+4. finaliza o pagamento
+
+Esses testes costumam ser mais lentos e complexos, por isso geralmente existem em menor quantidade dentro da pirâmide de testes.
