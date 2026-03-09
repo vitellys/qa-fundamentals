@@ -1,1 +1,51 @@
+# Ciclo de Vida de um Bug
 
+O ciclo de vida de um bug representa o caminho que um erro percorre dentro do processo de desenvolvimento de software, desde o momento em que ele é identificado até o momento em que é corrigido e confirmado como resolvido.
+
+Esse processo ajuda a organizar a comunicação entre QA e desenvolvedores, garantindo que os problemas encontrados no sistema sejam tratados da forma correta.
+
+## Etapas
+
+### 1. New
+
+Essa é a primeira etapa do bug.
+
+Aqui o QA identifica um erro no sistema durante os testes e cria um relatório de bug, descrevendo o problema encontrado, os passos para reproduzir, o resultado esperado e o resultado atual.
+
+Nesse momento o bug ainda não foi analisado pelo time de desenvolvimento.
+
+### 2. Assigned
+
+Depois que o bug é registrado, ele é atribuído a um desenvolvedor responsável por analisar e corrigir o problema.
+
+A partir desse momento o bug passa a fazer parte das tarefas do desenvolvimento.
+
+### 3. In Progress
+
+Nessa etapa o desenvolvedor começa a trabalhar na correção do bug.
+
+Ele analisa o que causou o problema no sistema e realiza as alterações necessárias no código para corrigir o erro.
+
+### 4. Fixed
+
+Quando o desenvolvedor termina a correção, o bug é marcado como **Fixed**, indicando que a correção foi implementada.
+
+Porém, isso não significa que o bug está definitivamente resolvido, pois ainda precisa passar pelo reteste do QA.
+
+### 5. Retest
+
+Após a correção, o QA executa novamente os testes para verificar se o problema realmente foi resolvido.
+
+O QA repete os passos que anteriormente causavam o erro para confirmar que o sistema agora está funcionando corretamente.
+
+### 6. Closed
+
+Se o QA confirmar que o bug foi corrigido e não ocorre mais, o bug é marcado como **Closed**.
+
+Isso significa que o problema foi resolvido com sucesso.
+
+### 7. Reopened
+
+Caso o QA perceba que o erro ainda acontece ou que a correção não resolveu completamente o problema, o bug pode ser **reaberto**.
+
+Nesse caso ele volta para o time de desenvolvimento para uma nova análise e correção.
