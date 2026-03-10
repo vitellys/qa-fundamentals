@@ -1,0 +1,50 @@
+# Glossário de QA
+
+Este glossário reúne alguns termos comuns utilizados na área de Quality Assurance (QA).
+
+## Bug
+
+Um bug é um erro ou defeito no software que faz com que o sistema apresente um comportamento incorreto ou diferente do esperado.
+
+## Test Case
+
+Um test case (caso de teste) é um conjunto de passos definidos para verificar se uma funcionalidade do sistema funciona corretamente.
+
+Ele geralmente contém:
+- passos de execução
+- resultado esperado
+- resultado obtido
+
+## Test Scenario
+
+Um test scenario (cenário de teste) descreve uma situação ou fluxo que precisa ser testado no sistema.
+
+Exemplo:  
+Verificar se um usuário consegue realizar login na aplicação.
+
+## Severity
+
+A severidade define o impacto que um bug causa no funcionamento do sistema.
+
+Ela indica o quão grave é o problema.
+
+Exemplo de níveis comuns:
+- baixa
+- média
+- alta
+
+## Priority
+
+A prioridade indica o nível de urgência para corrigir um bug.
+
+Ou seja, define qual erro precisa ser resolvido primeiro dentro do projeto.
+
+## Regression Test
+
+O teste de regressão é realizado após alterações no sistema para garantir que funcionalidades que já funcionavam anteriormente continuam funcionando corretamente.
+
+## Smoke Test
+
+O smoke test é um teste rápido realizado para verificar se as funcionalidades principais do sistema estão funcionando.
+
+Ele geralmente é executado antes de testes mais detalhados.
