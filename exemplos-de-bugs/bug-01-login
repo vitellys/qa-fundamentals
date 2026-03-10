@@ -1,0 +1,30 @@
+# Bug 01 — Erro no login
+
+## Título
+Sistema não permite login mesmo com senha correta.
+
+## Ambiente
+Produção.
+
+## Passos para reproduzir
+
+1. Acessar a página de login do sistema
+2. Inserir um email válido
+3. Inserir a senha correta
+4. Clicar no botão "Entrar"
+
+## Resultado esperado
+
+O usuário deve conseguir acessar o sistema normalmente após inserir suas credenciais corretas.
+
+## Resultado atual
+
+O sistema exibe a mensagem "credenciais inválidas" e impede o acesso.
+
+## Severidade
+
+Alta, pois impede o usuário de acessar o sistema.
+
+## Prioridade
+
+Alta, já que o problema afeta diretamente o uso da aplicação.
