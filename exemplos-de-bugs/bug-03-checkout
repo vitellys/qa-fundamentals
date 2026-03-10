@@ -1,0 +1,26 @@
+# Bug 03 — Erro no cálculo do carrinho
+
+## Título
+Valor total do carrinho está sendo calculado incorretamente.
+
+## Passos para reproduzir
+
+1. Adicionar um produto de R$50 ao carrinho
+2. Adicionar um segundo produto de R$30
+3. Acessar a página de checkout
+
+## Resultado esperado
+
+O valor total do carrinho deveria ser R$80.
+
+## Resultado atual
+
+O sistema exibe o valor total de R$70.
+
+## Severidade
+
+Alta, pois pode gerar erros financeiros durante o processo de compra.
+
+## Prioridade
+
+Alta, já que o erro pode afetar diretamente as transações do sistema.
