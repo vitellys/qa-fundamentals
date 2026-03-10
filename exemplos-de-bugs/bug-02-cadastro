@@ -1,0 +1,27 @@
+# Bug 02 — Campo obrigatório não validado
+
+## Título
+Sistema permite realizar cadastro sem preencher o campo telefone.
+
+## Passos para reproduzir
+
+1. Acessar a página de cadastro
+2. Preencher os campos de nome e email
+3. Deixar o campo telefone vazio
+4. Clicar no botão de cadastrar
+
+## Resultado esperado
+
+O sistema deveria impedir o cadastro e solicitar o preenchimento do campo telefone, caso ele seja obrigatório.
+
+## Resultado atual
+
+O sistema permite concluir o cadastro mesmo com o campo telefone vazio.
+
+## Severidade
+
+Média, pois o sistema continua funcionando, mas pode gerar problemas nos dados cadastrados.
+
+## Prioridade
+
+Média, pois pode impactar a qualidade das informações armazenadas no sistema.
